@@ -1,0 +1,27 @@
+-- paste this sql query to cretae table
+
+
+CREATE TABLE data_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    end_year INT,
+    citylng FLOAT,
+    citylat FLOAT,
+    intensity FLOAT,
+    sector VARCHAR(255),
+    topic VARCHAR(255),
+    insight TEXT,
+    swot TEXT,
+    url VARCHAR(255),
+    region VARCHAR(255),
+    start_year INT,
+    impact VARCHAR(255),
+    added DATE,
+    published DATE,
+    city VARCHAR(255),
+    country VARCHAR(255),
+    relevance VARCHAR(255),
+    pestle VARCHAR(255),
+    source VARCHAR(255),
+    title VARCHAR(255),
+    likelihood VARCHAR(255)
+);

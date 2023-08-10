@@ -1,0 +1,7 @@
+-- paste this sql query to cretae table
+
+
+CREATE TABLE data_imported (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    is_imported TINYINT DEFAULT 0
+);
